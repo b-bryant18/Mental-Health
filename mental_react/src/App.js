@@ -15,9 +15,9 @@ function App() {
         <Navbar />
         <Header />
         <Wrapper>
-          <Route exact path ="/" component ={Home} />
-          <Route exact path = "/home" component = {Home} />
-          <Route exact path = "/workout" component = {Workout} />
+          <Route path ="/" component ={Home} />
+          <Route path = "/home" component = {Home} />
+          <Route path = "/workout" component = {Workout} />
         </Wrapper>
         <Footer />
       </Router>

@@ -1,13 +1,15 @@
 import React from 'react';
 import Header from '../components/Header';
+import Row from '../components/Row';
 
 function Home() {
-return (
-    <div>
-<Header />
-<h2>This is my h2 text</h2>
-    </div>
-)
+    return (
+        <div>
+            <Header />
+            <Row>
+            </Row>
+        </div>
+    );
 }
 
 export default Home;
