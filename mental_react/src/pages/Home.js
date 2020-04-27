@@ -1,13 +1,14 @@
 import React from 'react';
 import Header from '../components/Header';
-import Row from '../components/Row';
+import Container from '../components/Container';
+import Footer from '../components/Footer';
 
 function Home() {
     return (
         <div>
             <Header />
-            <Row>
-            </Row>
+            <Container />
+           <Footer />
         </div>
     );
 }
