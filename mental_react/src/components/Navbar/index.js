@@ -1,4 +1,4 @@
-import React, {useState} from 'react';
+import React, { useState } from 'react';
 import {
     Collapse,
     Navbar,
@@ -21,36 +21,32 @@ const Navigation = (props) => {
 
     return (
         <div>
-            <Navbar color="light" light expand="md">
-                <NavbarBrand href="/">reactstrap</NavbarBrand>
+            <Navbar color="light" light expand="lg">
+                <NavbarBrand href="/">Stability</NavbarBrand>
                 <NavbarToggler onClick={toggle} />
                 <Collapse isOpen={isOpen} navbar>
                     <Nav className="mr-auto" navbar>
                         <NavItem>
-                            <NavLink href="/components/">Components</NavLink>
+                            <NavLink href="/home">Home</NavLink>
                         </NavItem>
                         <NavItem>
-                            <NavLink href="https://github.com/reactstrap/reactstrap">Github</NavLink>
+                            <NavLink href="/news">Good News</NavLink>
                         </NavItem>
                         <UncontrolledDropdown nav inNavbar>
                             <DropdownToggle nav caret>
-                                Options
+                                Workout
                     </DropdownToggle>
                             <DropdownMenu right>
-                                <DropdownItem>
-                                    Option 1
+                                <DropdownItem href="/cardio">
+                                    Cardio
                         </DropdownItem>
-                                <DropdownItem>
-                                    Option 2
-                        </DropdownItem>
-                                <DropdownItem divider />
-                                <DropdownItem>
-                                    Reset
+                                <DropdownItem href="/strength">
+                                    Strength
                         </DropdownItem>
                             </DropdownMenu>
                         </UncontrolledDropdown>
                     </Nav>
-                    <NavbarText>Simple Text</NavbarText>
+                    <NavbarText>Stay Positive</NavbarText>
                 </Collapse>
             </Navbar>
         </div>

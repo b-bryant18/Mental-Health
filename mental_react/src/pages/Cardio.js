@@ -1,12 +1,12 @@
 import React from 'react';
 // import Row from '../components/Row';
 
-function Workout() {
+function Cardio() {
     return (
         <div>
-                <h1>Workout page </h1>
+                <h1>I am the cardio page </h1>
 
         </div>
-    )
+    );
 }
-export default Workout;
+export default Cardio;
