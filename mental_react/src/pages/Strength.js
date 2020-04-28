@@ -1,11 +1,20 @@
 import React from 'react';
+import Container from "../components/Container";
+import Header from "../components/Header";
+import Footer from "../components/Footer";
+import Row from '../components/Row';
 
-function Strength () {
+function Strength() {
     return (
         <div>
-            <h1>I am the strength page</h1>
+            <Container>
+                <Header />
+                <Row>
+                    <h1>I am the strength page</h1>
+                </Row>
+                <Footer />
+            </Container>
         </div>
-
     );
 }
 
