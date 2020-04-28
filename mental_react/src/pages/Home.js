@@ -7,7 +7,9 @@ function Home() {
     return (
         <div>
             <Header />
-            <Container />
+            <Container>
+                <h2>Welcome to the home page</h2>
+            </Container>
            <Footer />
         </div>
     );
