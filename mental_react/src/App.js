@@ -7,8 +7,8 @@ import Cardio from "./pages/Cardio";
 import Strength from "./pages/Strength";
 import Footer from "./components/Footer";
 import Navigation from './components/Navbar';
-import './App.css';
 import GoodNews from './pages/News';
+import './App.css';
 
 function App() {
   return (
@@ -17,11 +17,11 @@ function App() {
         <Navigation/>
         <Header />
         <Wrapper>
-          <Route path ="/" component ={Home} />
-          <Route path = "/home" component = {Home} />
-          <Route path = "/cardio" component = {Cardio} />
-          <Route path = "/strength" component = {Strength} />
-          <Route path = "/news" component = {GoodNews} />
+          <Route exact path ="/" component ={Home} />
+          <Route exact path = "/home" component = {Home} />
+          <Route exact path = "/news" component = {GoodNews} />
+          <Route exact path = "/cardio" component = {Cardio} />
+          <Route exact path = "/strength" component = {Strength} />
         </Wrapper>
         <Footer />
       </Router>

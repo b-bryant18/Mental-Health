@@ -1,11 +1,17 @@
-import React from 'react';
-// import Row from '../components/Row';
+import React from "react";
+import Container from "../components/Container";
+import Row from '../components/Row';
 
 function Cardio() {
     return (
         <div>
-                <h1>I am the cardio page </h1>
-
+            <Container>
+                <Row>
+                    <div>
+                        <h1>Cardio page</h1>
+                    </div>
+                </Row>
+            </Container>
         </div>
     );
 }
