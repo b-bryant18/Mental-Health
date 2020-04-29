@@ -5,16 +5,20 @@ const Calculator = (props) => {
     return (
         <Form inline>
         <FormGroup className="mb-2 mr-sm-2 mb-sm-0">
-          <Label for="exampleEmail" className="mr-sm-2">Email</Label>
-          <Input type="email" name="email" id="exampleEmail" placeholder="something@idk.cool" />
+          <Label for="foodType" className="mr-sm-2">Food or Drink</Label>
+          <Input type="food" name="food" id="foodType" placeholder="Protein shake" />
         </FormGroup>
         <FormGroup className="mb-2 mr-sm-2 mb-sm-0">
-          <Label for="examplePassword" className="mr-sm-2">Password</Label>
-          <Input type="password" name="password" id="examplePassword" placeholder="don't tell!" />
+          <Label for="calories" className="mr-sm-2">Calories</Label>
+          <Input type="calories" name="calories" id="calAmount" placeholder="400" />
         </FormGroup>
         <Button>Submit</Button>
       </Form>
     );
 }
+// Maybe add forms for sugar and carbs
+// Create a button that adds the next set of forms like todo app
+// Need to add calories together with submit button
+// event.preventDefault() for submit button
 
 export default Calculator;
