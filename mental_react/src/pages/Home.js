@@ -1,17 +1,15 @@
 import React from 'react';
 import Container from '../components/Container';
 import Header from '../components/Header';
-import Row from '../components/Row';
+import Calculator from "../components/Calculator";
 import Footer from '../components/Footer';
 
 function Home() {
     return (
         <div>
+            <Header />
             <Container>
-                <Header />
-                <Row>
-                    <h2>Welcome to the home page</h2>
-                </Row>
+                <Calculator />
             </Container>
             <Footer />
         </div>
